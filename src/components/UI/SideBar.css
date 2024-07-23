@@ -1,0 +1,36 @@
+.main-logo {
+    background-color:black;
+    color: white;
+    margin-top: 0;
+    padding: 20px 20px;
+}
+.menu-button {
+    padding-left: 15px;
+}
+.feed-left ul{
+    list-style: none;
+}
+.menu-button:hover {
+    cursor: pointer;
+}
+.feed-left {
+    width: 15%;
+    height: 100%;
+    /* border-right: 2px solid black; */
+    margin-right: 5px;
+}
+
+.temp {
+    border: 2px solid black;
+    width: 800px;
+    height: 500px;
+}
+.feed-manage {
+    display: flex;
+    align-items: row;
+    margin-top: 100px;
+    position: fixed;
+}
+.image-size{
+    width: 100px;
+}

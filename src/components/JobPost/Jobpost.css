@@ -1,0 +1,66 @@
+.job-post {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px auto 20px;
+    margin-top: 100px;
+    width: 50%;
+  }
+  
+  .profile-image {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 0;
+  }
+  
+  .position {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 0px;
+    margin-top: 0;
+  }
+  
+  .content {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .attachments {
+    margin-bottom: 10px;
+  }
+  
+  .attachment-link {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .timestamp {
+    font-size: 14px;
+    color: #777;
+  }
+    
+  .profile-manager {
+    display: flex;
+    flex-direction: row;
+  }
+  .name-manager {
+    display: flex; 
+    flex-direction: column;
+    padding-left: 10px;
+  }
+  .content-image {
+    width: 80%;
+    margin: 5px auto;
+    /* max-height: 250px; */
+  }
+  .img-container{
+    text-align: center;
+  }

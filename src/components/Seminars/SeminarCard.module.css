@@ -1,0 +1,13 @@
+.container{
+    
+    max-width: 36rem;
+    width: 90%;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    margin: 15px auto;
+    padding: 0.5rem 1rem 1rem;
+}
+.timestamp {
+    font-size: 14px;
+    color:#777;
+  }

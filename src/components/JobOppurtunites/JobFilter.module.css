@@ -1,0 +1,107 @@
+
+.formcontrol{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 40px;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    justify-content: space-around;
+    background-color: white;
+   
+}
+.modal{
+
+    background-color: black;
+    color: white;
+    padding: 10px 40px 30px;
+    
+}
+.formcontrol input{
+    border: 0px;
+    margin: 10px;
+    font-size: 18px;
+}
+.formcontrol input:active,.formcontrol input:focus{
+    border: 0px;
+    outline: none;
+}
+.button {
+    font: inherit;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    padding: 0.25rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  
+  .button:hover,
+  .button:active {
+    background: black;
+    border-color: black;
+    color: white;
+  }
+  
+  .button:focus {
+    outline: none;
+  }
+  .border{
+    width: 1px;
+    height: 16px;
+    background-color: #3c3c3c;
+  }
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.75);
+  }
+  .header h2{
+    margin-top: 0px;
+  }
+.emptyregion{
+    height: 100vh;
+    background-color: transparent;
+}
+.random {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 840px){
+
+  .formcontrol{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  .border{
+    position: absolute;
+    display: none;
+  }
+  .formcontrol input{
+    border: 2px solid;
+    margin: 10px;
+    font-size: 18px;
+}
+.formcontrol input:active,.formcontrol input:focus{
+    border: 2px solid;
+    
+}
+.random{
+  justify-content: left;
+}
+.button{
+  margin-left: 10px;;
+  margin-top: 5px;
+}
+}

@@ -1,0 +1,19 @@
+.pratham {
+    width: 400px;
+    
+    display: flex;
+    /* border-radius:2rem; */
+    background-color: white !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black !important;
+    margin-top:50px;
+    margin-left: 130%;
+    padding: 0px;
+    box-shadow: 0 2px 8px rgba(97, 56, 56, 0.15);
+}
+
+b{
+    color: black;
+}

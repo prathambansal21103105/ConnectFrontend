@@ -1,0 +1,11 @@
+.praan{
+    box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+    /* border: 1px solid ; */
+    max-width: 250px;
+    border-radius: 16px;
+    display: block;
+    right: 20px;
+    top: 100px;
+    padding: 10px 20px;
+    position: fixed;
+}

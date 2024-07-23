@@ -1,0 +1,46 @@
+.main-logo {
+    background-color:black;
+    color: white;
+    margin-top: 0;
+    padding: 20px 20px;
+}
+.menu-button {
+    padding-left: 15px;
+}
+.feed-left ul{
+    list-style: none;
+}
+.menu-button:hover {
+    cursor: pointer;
+}
+.feed-left {
+    width: 180px;
+    height: 100%;
+    /* border-right: 2px solid black; */
+    margin-right: 5px;
+    border: 1px solid black;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;  
+}
+
+.temp {
+    border: 2px solid black;
+    width: 800px;
+    height: 500px;
+}
+.feed-manage {
+    display: flex;
+    align-items: row;
+    position: fixed;
+    margin-top: 50px;
+}
+.image-size{
+    width: 150px;
+}
+.ad {
+    display: flex;
+    flex-direction: column;
+}
+li h3 {
+    cursor: pointer;
+}

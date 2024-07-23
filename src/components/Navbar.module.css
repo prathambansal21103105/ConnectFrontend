@@ -1,0 +1,86 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #1f1f1f;
+  color: white;
+  position: fixed;
+  width: 100vw;
+  top: 0px;
+}
+.navbar h2 {
+  margin-left: 10px;
+}
+
+.navbar__content {
+  margin: 0px 10px 0px auto;
+  background-color: #1f1f1f;
+  color: white;
+}
+
+.ul {
+  /* color: white; */
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+  margin-left: 10px;
+}
+.ul li {
+    color: white;
+    margin: 0px 10px;
+  }
+  .ul li a {
+    text-decoration: none;
+    color: white;
+  }
+@media only screen and (max-width: 768px) {
+  .ul {
+    display: flex;
+    flex-direction: column-reverse;
+    list-style: none;
+    justify-content: left;
+    align-items: flex-start;
+    padding-left: 10px;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+  }
+  .ul li{
+    margin-top:7px;
+    margin-bottom:7px;
+  }
+  .search{
+    margin-left: 0px;
+  }
+}
+
+input {
+  border: 0px;
+  margin: 10px;
+
+  border-radius: 12px;
+  padding: 5px;
+}
+input:active,
+input:focus {
+  border: 0px;
+  outline: none;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.toggler{
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.brand{
+  margin-right: 375%;
+}
